@@ -8,6 +8,7 @@ k-vim
 
 > 本次更新: 小版本更新, 支持vim8异步语法检查
 
+Go: https://learnku.com/articles/24924
 详细 [更新日志](https://github.com/wklken/k-vim/wiki/UPDATE_LOG)
 
 # 目标
