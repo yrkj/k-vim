@@ -801,11 +801,11 @@ endif
 " 标签导航
 " tagbar {{{
     nmap <F9> :TagbarToggle<CR>
-    let g:tagbar_autofocus = 1
+    " let g:tagbar_autofocus = 1
     " let g:tagbar_autoshowtag = 1
     " let g:tagbar_show_visibility = 1
     " 在某些情况下自动打开tagbar
-    " autocmd BufReadPost *.go,*.py,*.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
+    autocmd BufReadPost *.go,*.py,*.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
 
     " for ruby
     let g:tagbar_type_ruby = {
