@@ -477,6 +477,17 @@ endif
     let g:ycm_filetype_blacklist = {
         \ 'tagbar' : 1,
         \ 'gitcommit' : 1,
+        \ 'nerdtree' : 1,
+        \ 'notes': 1,
+        \ 'markdown': 1,
+        \ 'netrw': 1,
+        \ 'unite': 1,
+        \ 'text': 1,
+        \ 'vimwiki': 1,
+        \ 'pandoc': 1,
+        \ 'infolog': 1,
+        \ 'leaderf': 1,
+        \ 'mail': 1
         \}
 " }}}
 
@@ -794,7 +805,7 @@ endif
     " let g:tagbar_autoshowtag = 1
     " let g:tagbar_show_visibility = 1
     " 在某些情况下自动打开tagbar
-    autocmd BufReadPost *.go,*.py,*.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
+    " autocmd BufReadPost *.go,*.py,*.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen()
 
     " for ruby
     let g:tagbar_type_ruby = {
